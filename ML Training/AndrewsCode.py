@@ -14,7 +14,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score, f1_score, classification_report, precision_recall_curve
 
 # Load dataset (replace this with your actual file path)
-df = pd.read_csv("student_dataset.csv")
+df = pd.read_csv(r'D:\UCD\Spring\Data management and mining\Group Assignment\student_dataset.csv')
 
 # Print basic info
 df.info()
